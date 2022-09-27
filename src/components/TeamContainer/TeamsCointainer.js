@@ -19,6 +19,7 @@ const Container = styled.div`
   }
   @media (max-width: 704px) {
     grid-template-columns: repeat(2, 1fr);
+    align-items: start;
   }
 `;
 const photos = [

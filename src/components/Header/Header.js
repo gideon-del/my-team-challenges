@@ -10,6 +10,12 @@ const Container = styled.div`
   display: flex;
   justify-content: space-around;
   margin-block: 100px;
+  @media (max-width: 704px) {
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 1rem;
+    margin-block: 50px;
+  }
 `;
 const TextContainer = styled.div`
   display: flex;

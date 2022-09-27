@@ -11,7 +11,7 @@ const TeamContainer = styled.div`
       margin-top: 0;
     }
     &:nth-child(even) {
-      margin-top: 5rem;
+      margin-top: 2rem;
     }
   }
 `;
@@ -23,6 +23,9 @@ const P = styled.p`
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 18px;
+  @media (max-width: 704px) {
+    font-size: 14px;
+  }
 `;
 const Image = styled.img`
   width: 100%;
@@ -35,6 +38,9 @@ const Decription = styled.p`
   letter-spacing: 3.9px;
   text-transform: uppercase;
   white-space: nowrap;
+  @media (max-width: 704px) {
+    font-size: 10px;
+  }
 `;
 const Team = (props) => {
   return (
