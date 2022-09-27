@@ -5,6 +5,7 @@ import TeamsCointainer from "./components/TeamContainer/TeamsCointainer";
 import styled from "styled-components";
 const Footer = styled.footer`
   text-align: center;
+  padding-bottom: 1rem;
   p {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
